@@ -1,0 +1,20 @@
+{
+  "name": "playground-snowpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "nappa <masa.yanagawa721@gmail.com> (https://twitter.com/bebeji_nappa)",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-sass": "^1.3.0",
+    "@snowpack/plugin-vue": "^2.3.0",
+    "snowpack": "^3.0.11"
+  }
+}
